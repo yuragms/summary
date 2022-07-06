@@ -59,7 +59,7 @@ body {
   color: #ffffff;
   margin-right: 10px;
 }
-.Tech-skill-title {
+.lng-Tech-skill-title {
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
@@ -82,7 +82,7 @@ body {
   color: #5c6470;
 }
 
-.Soft-skill-title {
+.lng-Soft-skill-title {
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
@@ -104,13 +104,13 @@ body {
 .Soft-skill-text {
   color: #5c6470;
 }
-.profession {
+.lng-profession {
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 25px;
 }
-.name {
+.lng-name {
   font-size: 45px;
   font-weight: 700;
   line-height: 89px;
