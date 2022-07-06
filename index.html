@@ -1,161 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic"
-        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <!--main conitener-->
     <div class="wrapper">
-        <aside class="sidebar">
-            <ul class="language-box"><li class="lang-flag active" data-lang="ru"><img src="./img/ru.svg" alt="ru"></li><li class="lang-flag" data-lang="ua"><img src="./img/ua.svg" alt="ua"></li><li class="lang-flag" data-lang="en"><img src="./img/en.svg" alt="en"></li></ul>
-            <img class="my-foto" src="./img/photo.jpg" alt="My photo">
-            <!--contacts-conitener-->
-            <div class="contacts-conitener">
-                <h3 class="contacts-title">Contacts</h3>
+      <aside class="sidebar">
+        <ul class="language-box">
+          <li class="lang-flag" data-lang="ru">
+            <img src="./img/ru.svg" alt="ru" />
+          </li>
+          <li class="lang-flag" data-lang="ua">
+            <img src="./img/ua.svg" alt="ua" />
+          </li>
+          <li class="lang-flag active" data-lang="en">
+            <img src="./img/en.svg" alt="en" />
+          </li>
+        </ul>
+        <img class="my-foto" src="./img/photo.jpg" alt="My photo" />
+        <!--contacts-conitener-->
+        <div class="contacts-conitener">
+          <h3 class="lng-contacts-title">Contacts</h3>
 
-                <div>
-                    <span class="contacts-link-type">C:</span> <a class="contacts-link" href="tel:380951138598">+38 095
-                        113 85 98 </a>
-                </div>
-                <div>
-                    <span class="contacts-link-type">E:</span> <a class="contacts-link"
-                        href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a>
-                </div>
-            </div>
-
-
-            <!--Tech conitener-->
-            <div class="Tech-skill-container">
-                <h3 class="Tech-skill-title">Tech Skills</h3>
-                <ul>
-                    <li class="Tech-skill-item"><span class="Tech-skill-text">HTML5</span></li>
-                    <li class="Tech-skill-item"><span class="Tech-skill-text">CSS3</span> </li>
-                    <li class="Tech-skill-item"><span class="Tech-skill-text">GIT</span></li>
-                    <li class="Tech-skill-item"><span class="Tech-skill-text">WebPack</span></li>
-                    <li class="Tech-skill-item"><span class="Tech-skill-text">React.js</span></li>
-                    <li class="Tech-skill-item"><span class="Tech-skill-text">Node.js</span></li>
-                </ul>
-            </div>
-            <!--Soft conitener-->
-            <div class="Soft-skills-container">
-                <h3 class="Soft-skill-title">Soft skills</h3>
-                <ul>
-                    <li class="Soft-skill-item"><span class="Soft-skill-text">Scrum</span></li>
-                    <li class="Soft-skill-item"><span class="Soft-skill-text">Agile</span></li>
-                    <li class="Soft-skill-item"><span class="Soft-skill-text">GTD</span></li>
-                    <li class="Soft-skill-item"><span class="Soft-skill-text">Teamwork</span></li>
-                </ul>
-            </div>
-        </aside>
-
-        <!--about me conitener-->
-        <div class="about-me-conitener">
-            <!-- about me main info-->
-            <div class="info-container">
-                <h2 class="profession">Front-End Developer</h2>
-                <h1 class="name">Yurii Omelyanovich</h1>
-                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo
-                    viverra maecenas accumsan lacus vel facilisis. </p>
-            </div>
-            <!-- Project conitener-->
-            <div class="project-cointener">
-                <h3 class="about-me-title">Project</h3>
-                <ol>
-                    <li class="project-title-item">
-                        <a class="project-link" href="https://lovecamp.alinsol.com/">https://lovecamp.alinsol.com/</a>
-                        <span class="dots">.......................</span>
-                        <b>[</b><span class="tech-name">
-                            HTML5, CSS3
-                        </span><b>]</b>
-                    </li>
-                    <li class="project-title-item">
-                        <a class="project-link" href="https://cryptohub.goit.ua/">https://cryptohub.goit.ua/</a>
-                        <span class="dots">...............................</span>
-                        <b>[</b><span class="tech-name">
-                            JavaScript
-                        </span><b>]</b>
-                    </li>
-                    <li class="project-title-item">
-                        <a class="project-link" href="https://kidslike.goit.co.ua/">https://cryptohub.goit.ua/</a>
-                        <span class="dots">...............................</span>
-                        <b>[</b><span class="tech-name">
-                            React.js,Node.js
-                        </span><b>]</b>
-                    </li>
-                </ol>
-            </div>
-            <!--Work Experience-->
-            <div>
-                <h3 class="about-me-title">Work Experience</h3>
-                <!--Company 1-->
-                <div>
-                    <h4 class="profesion-title">Front-End Developer <span class="profesion-company">Freelance</span>
-                    </h4>
-                    <span class="profesion-time">
-                        September 2019 - up to now <span class="profesion-divider">|</span> Ukaine
-                    </span>
-                    <ul class="profesion-duties">
-                        <li class="profesion-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <li class="profesion-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li class="profesion-duties-item">Risus commodo viverra maecenas. </li>
-                        <li class="profesion-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod. </li>
-                    </ul>
-                </div>
-                <!--Company 2-->
-                <div>
-                    <h4 class="profesion-title">Manager <span class="profesion-company">Roga & Kopyta New</span></h4>
-                    <span class="profesion-time">
-                        March 2015 - October 2018 <span class="profesion-divider">|</span> Ukaine
-                    </span>
-                    <ul class="profesion-duties">
-                        <li class="profesion-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        <li class="profesion-duties-item">Quis ipsum suspendisse ultrices gravida.</li>
-                        <li class="profesion-duties-item">Risus commodo viverra maecenas. </li>
-                    </ul>
-                </div>
-                <!--Company 3-->
-                <div>
-                    <h4 class="profesion-title">Manager <span class="profesion-company">Roga & Kopyta LLC</span></h4>
-                    <span class="profesion-time">
-                        June 2014 - February 2015 <span class="profesion-divider">|</span> Ukaine
-                    </span>
-                    <ul class="profesion-duties">
-                        <li class="profesion-duties-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                        <li class="profesion-duties-item">Quis ipsum suspendisse ultrices gravida.</li>
-                        <li class="profesion-duties-item">Risus commodo viverra maecenas. </li>
-                    </ul>
-                </div>
-            </div>
-            <!--Education-->
-            <div>
-                <h3 class="about-me-title">Education</h3>
-                <!--University-->
-                <div>
-                    <h4><span class="profesion-company">Kharkiv National University of Radioelectronics</span></h4>
-                    <p class="management">Management</p>
-                    <span class="profesion-time">
-                        Septermber 2009 - June 2014 <span class="profesion-divider">|</span> Ukaine
-                    </span>
-                </div>
-            </div>
-
-
+          <div>
+            <span class="contacts-link-type">C:</span>
+            <a class="contacts-link" href="tel:380973186507"
+              >+38 097 318 65 07
+            </a>
+          </div>
+          <div>
+            <span class="contacts-link-type">E:</span>
+            <a class="contacts-link" href="mailto:yura.gms@gmail.com"
+              >yura.gms@gmail.com</a
+            >
+          </div>
         </div>
+
+        <!--Tech conitener-->
+        <div class="Tech-skill-container">
+          <h3 class="Tech-skill-title">Tech Skills</h3>
+          <ul>
+            <li class="Tech-skill-item">
+              <span class="Tech-skill-text">HTML5</span>
+            </li>
+            <li class="Tech-skill-item">
+              <span class="Tech-skill-text">CSS3</span>
+            </li>
+            <li class="Tech-skill-item">
+              <span class="Tech-skill-text">GIT</span>
+            </li>
+            <li class="Tech-skill-item">
+              <span class="Tech-skill-text">WebPack</span>
+            </li>
+            <li class="Tech-skill-item">
+              <span class="Tech-skill-text">React.js</span>
+            </li>
+            <li class="Tech-skill-item">
+              <span class="Tech-skill-text">Node.js</span>
+            </li>
+          </ul>
+        </div>
+        <!--Soft conitener-->
+        <div class="Soft-skills-container">
+          <h3 class="Soft-skill-title">Soft skills</h3>
+          <ul>
+            <li class="Soft-skill-item">
+              <span class="Soft-skill-text">Scrum</span>
+            </li>
+            <li class="Soft-skill-item">
+              <span class="Soft-skill-text">Agile</span>
+            </li>
+            <li class="Soft-skill-item">
+              <span class="Soft-skill-text">GTD</span>
+            </li>
+            <li class="Soft-skill-item">
+              <span class="Soft-skill-text">Teamwork</span>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--about me conitener-->
+      <div class="about-me-conitener">
+        <!-- about me main info-->
+        <div class="info-container">
+          <h2 class="profession">Front-End Developer</h2>
+          <h1 class="name">Yurii Omelyanovich</h1>
+          <p class="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+            ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+            accumsan lacus vel facilisis.
+          </p>
+        </div>
+        <!-- Project conitener-->
+        <div class="project-cointener">
+          <h3 class="about-me-title">Project</h3>
+          <ol>
+            <li class="project-title-item">
+              <a class="project-link" href="https://lovecamp.alinsol.com/"
+                >https://lovecamp.alinsol.com/</a
+              >
+              <span class="dots">.......................</span>
+              <b>[</b><span class="tech-name"> HTML5, CSS3 </span><b>]</b>
+            </li>
+            <li class="project-title-item">
+              <a class="project-link" href="https://cryptohub.goit.ua/"
+                >https://cryptohub.goit.ua/</a
+              >
+              <span class="dots">...............................</span>
+              <b>[</b><span class="tech-name"> JavaScript </span><b>]</b>
+            </li>
+            <li class="project-title-item">
+              <a class="project-link" href="https://kidslike.goit.co.ua/"
+                >https://cryptohub.goit.ua/</a
+              >
+              <span class="dots">...............................</span>
+              <b>[</b><span class="tech-name"> React.js,Node.js </span><b>]</b>
+            </li>
+          </ol>
+        </div>
+        <!--Work Experience-->
+        <div>
+          <h3 class="about-me-title">Work Experience</h3>
+          <!--Company 1-->
+          <div>
+            <h4 class="profesion-title">
+              Front-End Developer
+              <span class="profesion-company">Freelance</span>
+            </h4>
+            <span class="profesion-time">
+              September 2019 - up to now
+              <span class="profesion-divider">|</span> Ukaine
+            </span>
+            <ul class="profesion-duties">
+              <li class="profesion-duties-item">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </li>
+
+              <li class="profesion-duties-item">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+              <li class="profesion-duties-item">
+                Risus commodo viverra maecenas.
+              </li>
+              <li class="profesion-duties-item">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod.
+              </li>
+            </ul>
+          </div>
+          <!--Company 2-->
+          <div>
+            <h4 class="profesion-title">
+              Manager <span class="profesion-company">Roga & Kopyta New</span>
+            </h4>
+            <span class="profesion-time">
+              March 2015 - October 2018
+              <span class="profesion-divider">|</span> Ukaine
+            </span>
+            <ul class="profesion-duties">
+              <li class="profesion-duties-item">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </li>
+
+              <li class="profesion-duties-item">
+                Quis ipsum suspendisse ultrices gravida.
+              </li>
+              <li class="profesion-duties-item">
+                Risus commodo viverra maecenas.
+              </li>
+            </ul>
+          </div>
+          <!--Company 3-->
+          <div>
+            <h4 class="profesion-title">
+              Manager <span class="profesion-company">Roga & Kopyta LLC</span>
+            </h4>
+            <span class="profesion-time">
+              June 2014 - February 2015
+              <span class="profesion-divider">|</span> Ukaine
+            </span>
+            <ul class="profesion-duties">
+              <li class="profesion-duties-item">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+              <li class="profesion-duties-item">
+                Quis ipsum suspendisse ultrices gravida.
+              </li>
+              <li class="profesion-duties-item">
+                Risus commodo viverra maecenas.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Education-->
+        <div>
+          <h3 class="about-me-title">Education</h3>
+          <!--University-->
+          <div>
+            <h4>
+              <span class="profesion-company"
+                >Kharkiv National University of Radioelectronics</span
+              >
+            </h4>
+            <p class="management">Management</p>
+            <span class="profesion-time">
+              Septermber 2009 - June 2014
+              <span class="profesion-divider">|</span> Ukaine
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- </div> -->
-    <script src="./app.js"></script>
-</body>
-
+    <script src="./js/lang.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
