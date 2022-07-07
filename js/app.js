@@ -21,6 +21,8 @@ function clearActiveClasses() {
   });
 }
 
+//--------------------------------
+
 function translate(lang) {
   for (let key in langArr) {
     document.querySelector(".lng-" + key).innerHTML = langArr[key][lang];
