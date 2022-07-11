@@ -29,4 +29,59 @@ const langArr = {
     en: "I am a Front-End developer looking for a full-time position in a company that's aimed at making both everyday life and business easier, more productive and user-friendly. I have sound knowledge of HTML, CSS, JavaScript, and React. Also, I have hands-on experience in following Agile /Scrum methodology when working in a team. I am a fast learner, responsible, and ready for challenging tasks. I have 6 kue on codewars.com ",
     ua: "Я Фронтенд розробник, шукаю посаду на повний робочий день у компанії, яка спрямована на створення як повсякденного життя і бізнесу простіше, продуктивніше та зручніше. Я добре знаю HTML, CSS, JavaScript і React. Крім того, я маю практичний досвід у дотриманні методології Agile/Scrum під час роботи в команді. Я швидко навчаюся, відповідальний та готов виконувати складні завдання. У мене 6 kue на codewars.com",
   },
+  teamProject: {
+    ru: "Командные проекты",
+    en: "Team Projects",
+    ua: "Командні проекти",
+  },
+  ownProject: {
+    ru: "Собственные проекты",
+    en: "Own Projects",
+    ua: "Власні проекти",
+  },
+  WorkExperience: {
+    ru: "Опыт работы",
+    en: "Work Experience",
+    ua: "Досвід роботи",
+  },
+  Proffesion1: {
+    ru: "Частный предприниматель:",
+    en: "Self employed:",
+    ua: "Самозайнятий:",
+  },
+  ProffesionDetails1: {
+    ru: "Частный предприниматель, продажа и доставка строительных материалов.",
+    en: "Private entrepreneur, sale and delivery of building materials.",
+    ua: "ФОП, продаж та доставка будівельних матеріалів.",
+  },
+  dataWork1: {
+    ru: "Сентябрь 2011 - по теперешний день",
+    en: "September 2011 - up to now",
+    ua: "Вересень 2011 - по теперішній час",
+  },
+  countryWork1: {
+    ru: "Украина",
+    en: "Ukaine",
+    ua: "Україна",
+  },
+  Education: {
+    ru: "Образование",
+    en: "Education",
+    ua: "Освіта",
+  },
+  University: {
+    ru: "Киевский Экономический Национальный Университет - магистр финансов",
+    en: "Kyiv Economic National University - Master's Degree in Finance",
+    ua: "Київський Економічний Національний Університет - магістр фінансів",
+  },
+  itEducation: {
+    ru: "Дополнительное образование",
+    en: "Additional Education",
+    ua: "Додаткова освіта",
+  },
+  itTime: {
+    ru: "февраль 2021 - февраль 2022",
+    en: "february 2021 - february 2022",
+    ua: "лютий 2021 - лютий 2022",
+  },
 };
